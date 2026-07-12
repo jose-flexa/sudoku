@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import {
-  Difficulty,
+  type Difficulty,
   generatePuzzle,
   generateSolution,
   getConflicts,
@@ -90,7 +90,7 @@ describe('Sudoku game utilities', () => {
     const puzzle = [...solution]
     expect(isSolved(puzzle, solution)).toBe(true)
 
-    puzzle[0] = null
+    puzzle[0] = 0
     expect(isSolved(puzzle, solution)).toBe(false)
   })
 })

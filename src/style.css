@@ -227,7 +227,7 @@ select,
 .note {
   color: transparent;
   font-size: clamp(0.42rem, 2vw, 0.72rem);
-  font-weight: 600;
+  font-weight: 700;
   display: grid;
   place-items: center;
 }
